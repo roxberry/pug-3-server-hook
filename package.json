@@ -1,0 +1,25 @@
+{
+  "name": "pug-3-server-hook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roxberry/pug-3-server-hook.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roxberry/pug-3-server-hook/issues"
+  },
+  "homepage": "https://github.com/roxberry/pug-3-server-hook#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "child_process": "^1.0.2",
+    "express": "^4.15.4",
+    "forever": "^0.15.3"
+  }
+}
