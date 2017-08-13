@@ -16,11 +16,11 @@ app.get('/payload', function(req, res) {
 });
 
 app.post('/payload', function (req, res) {
-    exec ('git -C ../pug-3-server reset --hard' , logActivity);
+    exec ('git -C /var/www/pug-3-server reset --hard' , logActivity);
 
-    exec ('git -C ../pug-3-server clean -d -f' , logActivity);
+    exec ('git -C /var/www/pug-3-server clean -d -f' , logActivity);
 
-    exec ('git -C ../pug-3-server pull -f' , logActivity);
+    exec ('git -C /var/www/pug-3-server pull -f' , logActivity);
 
     res.sendStatus(200);
     res.end();
