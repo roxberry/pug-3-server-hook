@@ -3,7 +3,7 @@ Description=pug-3-server-hook
 After=network.target
 
 [Service]
-ExecStart=usr/bin/node /var/www/pug-3-server-hook/app.js
+ExecStart=/usr/bin/node /var/www/pug-3-server-hook/app.js
 Restart=always
 User=nobody
 Group=nobody
